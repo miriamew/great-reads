@@ -3,7 +3,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import PaymentForm from "./PaymentForm";
 
-const stripe = loadStripe('pk_test_51Pcb3VKJPxnYau7k4cGxAPWhmqyDa14g6KUmcXCdXydNx9TJVePtiuGaMypLyjo4RtzfrMx8vXWppmI8xZ94vMC000L6VqTAaQ');
+const stripe = loadStripe('**');
 
 const StripePayment = () => {
     const [clientSecret, setClientSecret] = useState(null);
